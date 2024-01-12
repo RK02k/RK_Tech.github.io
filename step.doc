@@ -1,0 +1,3 @@
+First we make package by npm init -y
+
+then we i npm i express and npm i mongoose

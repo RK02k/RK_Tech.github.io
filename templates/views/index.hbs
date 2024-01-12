@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" type="image/png" href="https://img.icons8.com/stickers/100/technology.png" sizes="128x128"/>
+    <title>RK Tech Solutions</title>
+</head>
+<body>
+
+ {{>navbar}} 
+ {{!-- calling navbar partial --}}
+
+ {{!-- hero section starts --}}
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+             <h1>WE WILL HELP YOU TO</h1>
+             <H1>GROW YOUR BUSINESS</H1>
+             <P>We Are The Team of <span class="bold-style"> Professional Developer✌️</span></P>
+             <button class="btn-style btn-primary">Read more</button>
+            </div>
+            {{!-- right side  --}}
+            <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                <figure>
+                    <img src="images/growth.jpg" alt="herosection" id="as1">
+                </figure>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+{{!-- heros section ends --}}
+
+
+ {{!-- about section starts --}}
+{{>about}} 
+{{!-- about section ends --}}
+
+ {{!-- service section starts --}}
+{{>service}} 
+{{!-- service section ends --}}
+
+{{>maps}}
+
+{{>contact}}
+
+ {{!-- here mt =>margin top and  md is medium and and other is mobile -- , py => padding both}} 
+    {{!-- <button class="btn btn-success"> Awesome i</button> --}}
+
+    <style src="../jq/jquery.js"></style>
+    <style src="../js/bootstrap.js"></style>
+</body>
+</html>
